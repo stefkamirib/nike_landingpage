@@ -1,0 +1,34 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+:root {
+    --cor-de-fundo: #000000;
+    --branco-principal: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor-de-fundo);
+    grid-template-columns: 50% 50%;
+}
+
+.nike-logo {
+    height: 40px;
+    padding-left: 80px;
+}
+
+nav .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    color: var(--branco-principal);
+    padding: 60px;
+}
