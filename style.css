@@ -1,34 +1,189 @@
 @import 
-url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+url('https://fonts.googleapis.com/css2?family=Francois+One&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Variáveis Rápidas*/
 
 :root {
     --cor-de-fundo: #000000;
     --branco-principal: #FFFFFF;
-}
+    --cinza-secundario: #D0D0D0;
+    --sombra-amarela: #D29C5A;
+    --cinza-terciario: #EAE4E4;
+    --cinza-escuro: #999797;
+}  
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 body {
     background: var(--cor-de-fundo);
     grid-template-columns: 50% 50%;
+    overflow: hidden;
 }
+
+/*Logo Pequeno Nike*/
 
 .nike-logo {
     height: 40px;
+    margin-top: 38px;
     padding-left: 80px;
+
+}
+
+/*Itens de Navegação*/
+
+.itens-menu {
+    display: flex;
+    font-size: 15px;
+    font-family: 'jost' ;
+    padding-left: 210px;
+}
+
+.menu-item {
+    display: flex;
+    color: var(--branco-principal);
+    padding: 20px;
+    margin-top: -60px;
 }
 
 nav .nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
-.menu-item {
-    color: var(--branco-principal);
-    padding: 60px;
+
+
+/*Barra de Pesquisa*/
+
+.search-bar {
+    margin-top: -47px;
+
+}
+
+input {
+    font-size: 15px;
+    font-family: 'Jost';
+
+    padding-left: 10px;
+
+    height: 25px;
+    width: 300px;
+    margin-left: 950px;
+    border-radius: 6px;
+}
+
+/*ícones de perfil e favoritos do usuário*/
+
+.user-camp {
+    display: flex;
+    flex-direction: row;
+    margin-top: -27px;
+}
+
+/*ícone de coração/favoritos*/
+
+.favoritos-icon {
+    height: 25px;
+    margin-left: 1350px;
+    padding-right: 14px;
+     
+}
+
+/*ícone de perfil do usuário*/
+
+.perfil-icon {
+    height: 27px;
+    margin-right: 70px;
+}
+
+/*"A próxima geração da Tecnologia Air está aqui"*/
+
+.subtitulo {
+    color: var(--cinza-secundario);
+    font-family: 'Jost';
+    font-size: 20px;
+
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+
+/*LOGO NIKE COM SOMBRA AMARELA*/
+
+.nike-logo-fundo {
+    width: 777px;
+    height: 309%;
+
+    margin-left: 474px;
+    z-index: 2;
+    position: relative;
+}
+
+/*SINTA PARA ACREDITAR*/
+
+.frase-destaque {
+    font-size: 80px;
+    font-family: 'Francois One';
+    color: var(--cinza-terciario);
+
+    margin-left: 400px;
+    margin-top: -330px;
+}
+
+/*AIR MAX DN*/
+
+.frase-destaque-secundaria {
+    font-size: 40px;
+    font-family: Francois One;
+
+    margin-left: 680px;
+    margin-top: -20px;
+
+    color: var(--cinza-escuro)
+}
+
+/*TÊNIS DECORATIVOS*/
+
+.sneakers-nike {
+    display: flex;
+}
+
+/*TÊNIS ESQUERDA*/
+
+.sneaker-one {
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+.sneaker-one img{
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+/*TÊNIS DIREITA*/
+
+.sneaker-two {
+    transform: scaleX(-1) rotate(30deg);
+    margin-left: 450px;
+}
+
+.sneaker-two img{
+    margin-top: -20px;
+
+
+}
+
+.btn-saiba-mais {
+    position: relative;
+}
+
+.btn-saiba-mais button{
+    margin-top: -100px;
+    margin-left: 600px;
+}
+
+.btn-ver-lancamentos button{
+    margin-left: 100px;
 }
