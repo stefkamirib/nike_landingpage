@@ -68,10 +68,10 @@ input {
 
     padding-left: 10px;
 
-    height: 25px;
+    height: 30px;
     width: 300px;
     margin-left: 950px;
-    border-radius: 6px;
+    border-radius: 1em;
 }
 
 /*ícones de perfil e favoritos do usuário*/
@@ -85,9 +85,9 @@ input {
 /*ícone de coração/favoritos*/
 
 .favoritos-icon {
-    height: 25px;
+    height: 27px;
     margin-left: 1350px;
-    padding-right: 14px;
+    padding-right: 25px;
      
 }
 
@@ -95,7 +95,7 @@ input {
 
 .perfil-icon {
     height: 27px;
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 /*"A próxima geração da Tecnologia Air está aqui"*/
@@ -154,36 +154,81 @@ input {
 
 .sneaker-one {
     transform: rotate(30deg);
-    z-index: 1;
+    z-index: -1;
 }
 
-.sneaker-one img{
-    margin-left: -40px;
-    margin-top: -20px;
+.sneaker-one img {
+    margin-left: -130px;
+    margin-top: -90px;
+    height: 600px;
 }
 
 /*TÊNIS DIREITA*/
 
 .sneaker-two {
     transform: scaleX(-1) rotate(30deg);
-    margin-left: 450px;
-}
-
-.sneaker-two img{
-    margin-top: -20px;
-
+    margin-left: -15px;
+    z-index: -1;
 
 }
+
+.sneaker-two img {
+    margin-top: -120px;
+    height: 600px;
+}
+/*BOTÃO SAIBA MAIS*/
+
 
 .btn-saiba-mais {
     position: relative;
+    margin-top: -300px;
+
+    z-index: 1;
 }
 
-.btn-saiba-mais button{
-    margin-top: -100px;
+.btn-saiba-mais button {
     margin-left: 600px;
+
+    width: 122px;
+    height: 45px;
+
+    border-radius: 5em;
+    border: none;
+    font-family: 'Jost';
+    font-size: 15px;
+
+}
+
+/*BOTÃO VER LANÇAMENTOS*/
+
+.btn-ver-lancamentos {
+    margin-top: -45px;
 }
 
 .btn-ver-lancamentos button{
-    margin-left: 100px;
+    margin-left: 730px;
+
+    width: 173px;
+    height: 45px;
+
+    border-radius: 5em;
+    border: none;
+    font-family: 'Jost';
+    font-size: 15px;
+}
+
+.icon-sacola {
+    position: relative;
+    background: var(--branco-principal);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 1400px;
+}
+
+.icon-sacola img {
+    width: 22px;
+    padding-left: 13.5px;
+    padding-top: 11px;
 }
